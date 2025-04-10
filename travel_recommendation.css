@@ -187,3 +187,39 @@ h1 {
 .contact textarea {
     min-height: 100px;
 }
+
+.search-description {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+
+.search-section {
+    background-color: white;
+    width: 300px;
+    padding: 1.5rem;
+}
+
+.search-section h3 {
+    color: black;
+    margin: 1rem 0;
+}
+
+.search-section p {
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+.search-section img {
+    width: 300px;
+}
+
+.search-container {
+    position: absolute;
+    top: calc(60px + 2rem);
+    right: 2rem;
+    height: calc(100vh - 60px - 3rem);
+    overflow: auto;
+}
